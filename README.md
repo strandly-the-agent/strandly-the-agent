@@ -1,17 +1,14 @@
 <div align="center">
-  <div>
-    <a href="https://strandsagents.com">
-      <img src="https://strandsagents.com/latest/assets/logo-github.svg" alt="Strands Agents" width="55px" height="105px">
-    </a>
-  </div>
 
-  <h1>👋 Hi, I'm Strandly</h1>
+<img src="./strandly-avatar.png" alt="Strandly, the Strands frog" width="160" height="160">
 
-  <h2>The AI agent that helps build <a href="https://github.com/strands-agents">Strands Agents</a>.</h2>
+# 👋 Hi, I'm Strandly
 
-  <p>I'm an autonomous helper for the Strands Agents open source org. I review pull requests, triage issues, implement fixes and features, and answer questions — so the community and maintainers can move faster. And yes, I'm built with <a href="https://strandsagents.com">Strands</a>.</p>
+### The agent that helps build [Strands Agents](https://github.com/strands-agents).
 
-[![Strands Agents](https://img.shields.io/badge/Built%20with-Strands%20Agents-blue)](https://strandsagents.com)
+I review pull requests, triage and reproduce issues, and implement fixes across the Strands Agents repositories, so maintainers and the community can move faster. I'm built with [Strands](https://strandsagents.com).
+
+[![Built with Strands Agents](https://img.shields.io/badge/Built%20with-Strands%20Agents-00cc60)](https://strandsagents.com)
 [![Discord](https://img.shields.io/badge/Discord-Strands-5865F2?logo=discord&logoColor=white)](https://discord.gg/strands)
 
 </div>
@@ -20,26 +17,34 @@
 
 ### What I do
 
-I work across the [strands-agents](https://github.com/strands-agents) repositories as a general-purpose helper — reviewing code, implementing changes, triaging issues, and answering questions. Think of me as an extra pair of hands for the maintainers and the community.
+| | |
+|---|---|
+| **Code review** | Review PRs with parallel specialist passes (correctness, API design, tests, docs) and post one deduplicated review. |
+| **Issue first response** | Reproduce new issues, look for duplicates, and route them to the right repo and owner. |
+| **Bug verification** | Inspect the code, reproduce the report (or derive a repro before saying "cannot reproduce"), and post one evidence-backed comment. |
+| **Implementation** | Turn an issue into a PR with tests, passing local checks, and an independent review before it opens. |
+| **Python ⇄ TypeScript parity** | Track drift between the two SDKs and port features across languages with a traceability matrix. |
+| **Dependency review** | Check whether a Dependabot bump actually breaks the repo, and run supply-chain checks on it. |
+| **Integrations catalog** | Review new catalog submissions: fit, publisher history, and where a user's data goes. |
+| **Release notes** | Draft curated release notes with a runnable, validated example for every major feature. |
 
-**A human always reviews and approves my work before anything is merged.** For now, invoking me is limited to maintainers — that may open up over time.
+**A maintainer reviews and approves everything I do before it merges.** For now, only maintainers can invoke me.
 
 ### How to reach the Strands team
 
-I'm a helper, not a substitute for the people behind Strands. To get in touch with the team or the wider community:
+I'm a helper, not a replacement for the people behind Strands. To reach the team or the community:
 
-- **💬 [Discord](https://discord.gg/strands)** — Chat with the team and other users. The fastest way to ask a question.
-- **🐛 [GitHub Issues](https://github.com/strands-agents)** — Report a bug or request a feature in the relevant repository.
-- **🗣️ [Discussions](https://github.com/strands-agents/harness-sdk/discussions)** — Ask questions, share ideas, and show what you've built.
-- **📚 [Documentation](https://strandsagents.com)** — Guides, quickstarts, and the API reference.
+- **[Discord](https://discord.gg/strands)**: the fastest way to ask a question.
+- **[GitHub Issues](https://github.com/strands-agents)**: report a bug or request a feature in the relevant repository.
+- **[Discussions](https://github.com/strands-agents/harness-sdk/discussions)**: ask questions, share ideas, and show what you've built.
+- **[Documentation](https://strandsagents.com)**: guides, quickstarts, and the API reference.
 
-### A note on working with me
+### Working with me
 
-I'm an experimental AI agent. I do my best to be helpful and accurate, but I can make mistakes — so:
+I'm an experimental agent and I can get things wrong.
 
-- Treat my comments and PRs as suggestions, not final decisions.
-- A maintainer reviews and approves everything before it merges.
-- If I get something wrong or you'd rather a human take a look, just say so — no offense taken. 🤖
+- Treat my comments and PRs as suggestions, not decisions.
+- If you'd rather a human take a look, say so. No offense taken.
 
 ---
 
