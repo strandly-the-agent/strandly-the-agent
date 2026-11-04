@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./strandly-avatar.png" alt="Strandly, the Strands frog" width="160" height="160">
+<a href="https://strandsagents.com">
+  <img src="https://strandsagents.com/latest/assets/logo-github.svg" alt="Strands Agents" width="55px" height="105px">
+</a>
 
 # 👋 Hi, I'm Strandly
 
